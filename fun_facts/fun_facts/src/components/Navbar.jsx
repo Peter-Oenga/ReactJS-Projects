@@ -1,9 +1,12 @@
 import React from 'react';
-
+import logo from "../assets/react-logo.png";
 const Navbar = () => {
     return (
         <nav>
-            <h1>Navbar Goes Here</h1>
+            <img src={logo} alt="React Logo" style={{ width: '100px', height: 'auto' }} />
+            <h3>React Facts</h3>
+            <h4>React course - project 1</h4>
+
         </nav>
     );
 };

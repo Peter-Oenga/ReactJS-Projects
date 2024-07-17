@@ -5,3 +5,9 @@
 body {
     margin: 0;
 }
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    
+}
