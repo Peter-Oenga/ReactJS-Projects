@@ -1,13 +1,12 @@
-import React from 'react';
-import Home from './pages/home/Home.js';
+import Home from './pages/home/Home.jsx';
 
 
 function App() {
   return (
-    <div>
-     <Home/>
-     
-    </div>
+    <>
+      <Home/>
+    </>
+    
   );
 }
 

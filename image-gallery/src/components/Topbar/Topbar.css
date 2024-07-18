@@ -71,7 +71,7 @@ html, body {
     display: flex;
 }
 
-.topbarIcon{
+.topbariconItem{
     margin-right: 15px;
     cursor: pointer;
     position: relative;
@@ -85,9 +85,18 @@ html, body {
     border-radius: 50%;
     top: -5px;
     right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  
 }
 
 .topbarimg{
     height: 32px;
     width: 32px;
+    margin-left: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
 }
