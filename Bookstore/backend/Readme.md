@@ -32,5 +32,5 @@ Follow these instructions to set up the project on your local machine for develo
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/online-bookstore.git
+   git clone https://github.com/Peter-Oenga/online-bookstore.git
    cd online-bookstore/backend
