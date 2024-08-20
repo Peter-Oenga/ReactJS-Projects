@@ -1,0 +1,52 @@
+.logo-image{
+  width: 40px;
+  
+}
+
+.header-items {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgb(29, 29, 31);
+  color: white;
+}
+
+.header-items > div {
+  display: flex;
+  align-items: center;
+  
+}
+
+#root {
+  background-color: rgb(71, 72, 89);
+  width: 550px;
+  height: 550px;
+  align-items: center;
+
+}
+
+.custom-list {
+  list-style-type: disc; /* Default bullet style, can be changed to circle, square, etc. */
+  padding-left: 20px; /* Adjusts the left padding if needed */
+  color: white;
+}
+
+.custom-list li::marker {
+  color: rgb(22, 223, 245); /* Tomato color for bullets */
+  font-size: 1.2em; /* Optional: Increase size of bullets */
+}
+
+
+.nav-right-items {
+  color: white;
+}
+
+.heading-react {
+  color: white;
+}
+
+.heading-reacfacts {
+  color: rgb(79, 255, 214);
+}
