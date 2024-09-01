@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background-color: rgb(29, 29, 31);
+  background-color: #21222A;
   color: white;
 }
 
@@ -20,7 +20,7 @@
 }
 
 #root {
-  background-color: rgb(71, 72, 89);
+  background-color: #282D35;
   width: 550px;
   height: 550px;
   align-items: center;
@@ -34,12 +34,13 @@
 }
 
 .custom-list li::marker {
-  color: rgb(22, 223, 245); /* Tomato color for bullets */
+  color: #61DAFB; /* Tomato color for bullets */
   font-size: 1.2em; /* Optional: Increase size of bullets */
 }
 
 
 .nav-right-items {
+
   color: white;
 }
 
@@ -48,5 +49,11 @@
 }
 
 .heading-reacfacts {
-  color: rgb(79, 255, 214);
+  color: #61DAFB;
+}
+
+.custom-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+  
 }
